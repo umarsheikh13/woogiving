@@ -41,7 +41,7 @@ window.onbeforeunload = function() {
 
 <p><img src="<?php echo plugin_dir_url( __FILE__ ) . 'img/loading.gif' ?>" alt="<?php esc_attr_e( 'Please wait.', 'woogiving' ); ?>"></p>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
 <script type="text/javascript">
 
